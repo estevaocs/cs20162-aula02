@@ -14,18 +14,18 @@
          Executa o programa exemplo
     -->
 
-    <groupId>com.github.kyriosdata</groupId>
-    <artifactId>exemplo</artifactId>
+    <groupId>com.github.estevaocs</groupId>
+    <artifactId>exercicios</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
 
-    <name>com.github.kyriosdata:exemplo</name>
+    <name>com.github.estevaocs:exercicios</name>
 
     <description>
         Projeto de referência (exemplo) inicial de desenvolvimento em Java com uso de JUnit.
     </description>
 
-    <url>https://github.com/kyriosdata/exemplo</url>
+    <url>https://github.com/estevaocs/cs20162-aula02</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
@@ -46,18 +46,18 @@
 
     <developers>
         <developer>
-            <id>kyriosdata</id>
-            <name>Fábio Nogueira de Lucena</name>
-            <email>fabio@inf.ufg.br</email>
+            <id>estevaocs</id>
+            <name>Estevao Cristino da Silva</name>
+            <email>estevao_cs@hotmail.com</email>
             <organization>Instituto de Informática (UFG)</organization>
             <organizationUrl>http://www.inf.ufg.br</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/kyriosdata/exemplo.git</connection>
-        <developerConnection>scm:git:https://github.com/kyriosdata/exemplo.git</developerConnection>
-        <url>https://github.com/kyriosdata/exemplo</url>
+        <connection>scm:git:https://github.com/estevaocs/cs20162-aula02.git</connection>
+        <developerConnection>scm:git:https://github.com/estevaocs/cs20162-aula02.git</developerConnection>
+        <url>https://github.com/estevaocs/cs20162-aula02</url>
     </scm>
 
     <properties>

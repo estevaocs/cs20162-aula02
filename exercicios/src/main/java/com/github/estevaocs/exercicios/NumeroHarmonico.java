@@ -21,7 +21,7 @@ public final class NumeroHarmonico {
         float s = 1;
         
         if(n < 1) {
-            throw new IllegalAccessError("o numero tem que ser maior que 0");
+            throw new IllegalArgumentException("o numero tem que ser maior que 0");
         }
         
         while(i <= n) {

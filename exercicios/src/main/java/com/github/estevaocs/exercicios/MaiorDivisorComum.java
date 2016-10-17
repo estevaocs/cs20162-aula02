@@ -21,12 +21,12 @@ public final class MaiorDivisorComum {
         
         int m;
         
-        if (b <= a) {
+        if (b > a) {
             throw new IllegalArgumentException("a tem que ser maior ou "
                     + "igual à b");
         }
         
-        if (b > 0) {
+        if (b <= 0) {
             throw new IllegalArgumentException("b tem que ser maior que 0");
         }
         

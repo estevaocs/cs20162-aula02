@@ -17,10 +17,11 @@ public class Produto {
      * @param a fator
      * @param b fator
      * @return o produto dos fatores
-     * @throws IllegalArgumentException
+     * @throws IllegalArgumentException - os fatores a e b nao podem ser
+     * negativos
      *
      */
-    public static int produto(int a, int b) {
+    public static int produto(int a, int b) throws IllegalArgumentException {
         int s; //soma das parcelas
         int i;// valor da parcela
         int totalParcelas = a; //total de parcelas
@@ -35,7 +36,7 @@ public class Produto {
             throw new IllegalArgumentException("os fatores não podem ser"
                     + " negativos");
         }
-        
+
         if (b < a) {
             totalParcelas = b;
             parcela = a;

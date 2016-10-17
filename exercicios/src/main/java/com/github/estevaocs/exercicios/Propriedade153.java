@@ -14,9 +14,11 @@ public final class Propriedade153 {
     /**
      * Metodo que verifica se o numero n possui a propriedade 153
      *
-     * @param n
-     * @return
-     * @throws IllegalArgumentException
+     * @param n - numero a ser verificado se possui a propriedade
+     * @return - boolean - true : possui a propriedade
+     *         - false : nao possui a propriedade
+     * @throws IllegalArgumentException - o numero n nao pode ser menor que 0e
+     * maior que 9999
      */
     public static boolean propriedade153(int n) throws IllegalArgumentException {
         int i;

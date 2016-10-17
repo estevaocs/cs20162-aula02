@@ -12,12 +12,14 @@ package com.github.estevaocs.exercicios;
 public final class Potencia {
 
     /**
+     * Metodo que calcula a pontencia
      *
      * @param x base
      * @param y expoente
      * @return potencia
+     * @throws IllegalArgumentException - x e y negativos
      */
-    public static int potencia(int x, int y) {
+    public static int potencia(int x, int y) throws IllegalArgumentException {
 
         int potencia = 1;
         int i;

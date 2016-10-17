@@ -15,9 +15,12 @@ public final class Propriedade3025 {
      * Metodo que verifica se o numero n possui a propriedade 3025
      *
      * @param n numero
-     * @return
+     * @return - boolean - true: o numero possui a propriedade false: o numero
+     * nao possui a propriedade
+     * @throws IllegalArgumentException - numero maior que 9999 ou menor que 0
      */
-    public static boolean propriedade3025(int n) {
+    public static boolean propriedade3025(int n) 
+            throws IllegalArgumentException {
 
         int i;
         int j;
@@ -34,7 +37,7 @@ public final class Propriedade3025 {
 
         i = n / 100;
         j = n % 100;
-        
+
         int soma = i + j;
 
         return Potencia.potencia(soma, 2) == n;

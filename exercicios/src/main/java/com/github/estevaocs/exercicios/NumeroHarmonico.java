@@ -11,12 +11,14 @@ package com.github.estevaocs.exercicios;
  */
 public final class NumeroHarmonico {
     
-    /**metodo que produz como resultado o n-ésimo número harmônico.
+    /**
+     * Metodo que produz como resultado o n-ésimo número harmônico.
      * 
      * @param n int 
      * @return float n-ésimo número harmônico.
+     * @throws IllegalArgumentException - n menor que 1
      */
-    public static float numeroHarmonico(int n){
+    public static float numeroHarmonico(int n)throws IllegalArgumentException {
         float i = 2;
         float s = 1;
         

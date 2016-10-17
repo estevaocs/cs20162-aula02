@@ -12,12 +12,13 @@ package com.github.estevaocs.exercicios;
 public class NumeroPrimo {
 
     /**
-     * metodo que ira mostrar se um primo é primo ou nao
+     * Metodo que ira mostrar se o numero de entrada n é um primo é primo ou nao
      *
      * @param n numero de entrada
      * @return true para numeros primos, false para numeros nao primos
+     * @throws IllegalArgumentException
      */
-    public static boolean primo(int n) {
+    public static boolean primo(int n) throws IllegalArgumentException{
         if (n > 1) {
 
             for (int i = 2; i <= (n - 1); i++) {

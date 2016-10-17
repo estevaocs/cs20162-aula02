@@ -11,13 +11,16 @@ package com.github.estevaocs.exercicios;
  */
 public final class MaiorDivisorComum {
     
-    /**Metodo para achar o maior divisor comum entre dois números
+    /**
+     * Metodo para achar o maior divisor comum entre dois números
      * 
      * @param a int 
      * @param b int
-     * @return int - a - o MDC entre os paramentros a e n
+     * @return um inteiro que é o maior divisor comum entre a e b.
+     * @throws  IllegalArgumentException -  numero b maior que a ou b negativo
      */
-    public static int crivoEratostenes(int a, int b){
+    public static int crivoEratostenes(int a, int b) 
+            throws IllegalArgumentException{
         
         int m;
         

@@ -1,13 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o metodo numeroPrimo() que verifica se um numro é primo ou nao.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public class NumeroPrimo {
 
@@ -16,7 +13,7 @@ public class NumeroPrimo {
      *
      * @param n numero de entrada
      * @return true para numeros primos, false para numeros nao primos
-     * @throws IllegalArgumentException
+     * @throws IllegalArgumentException - caso o numero 'n' seja menor que 1
      */
     public static boolean primo(int n) throws IllegalArgumentException{
         if (n > 1) {

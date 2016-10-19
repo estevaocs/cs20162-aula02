@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o 2 Metodos que retornam o MDC entre dois numeros, utilizando
+ * o crivo de Erastostenes
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class MaiorDivisorComum {
     

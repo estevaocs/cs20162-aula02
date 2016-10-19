@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo Propriedade3025() que verifica a existencia ou nao 
+ *dessa propriedade em um determinado numero.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class Propriedade3025 {
 
@@ -18,6 +16,7 @@ public final class Propriedade3025 {
      * @return - boolean - true: o numero possui a propriedade false: o numero
      * nao possui a propriedade
      * @throws IllegalArgumentException - numero maior que 9999 ou menor que 0
+     * @see metodo potencia(x, y) da Classe Potencia.
      */
     public static boolean propriedade3025(int n) 
             throws IllegalArgumentException {

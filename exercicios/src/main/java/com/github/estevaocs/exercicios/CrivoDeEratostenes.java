@@ -1,8 +1,10 @@
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o crivoErastostenes que realiza o crivo de Erastotenes.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class CrivoDeEratostenes {
 

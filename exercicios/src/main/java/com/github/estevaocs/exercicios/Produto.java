@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo de produto() que realiza a multiplicação de dois 
+ * numeros
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public class Produto {
 

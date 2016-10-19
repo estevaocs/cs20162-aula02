@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo potencia() que realiza a potencia de um numro x pelo 
+ * expoente y.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class Potencia {
 
@@ -18,6 +16,7 @@ public final class Potencia {
      * @param y expoente
      * @return potencia
      * @throws IllegalArgumentException - x e y negativos
+     * @see metodo produto da Classe Produto desse mesmo projeto.
      */
     public static int potencia(int x, int y) throws IllegalArgumentException {
 

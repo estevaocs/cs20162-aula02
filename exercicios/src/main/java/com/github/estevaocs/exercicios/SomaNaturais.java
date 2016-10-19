@@ -1,13 +1,15 @@
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo de Soma dos primeiros números naturais
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class SomaNaturais {
 
     /**
-     * Metodo para somar os n primeiros numeros
+     * Metodo para somar os n primeiros números naturais
      *
      * @param n int - Maior numero a ser somado
      * @return s int - valot total da somas dos primeiros n numeros

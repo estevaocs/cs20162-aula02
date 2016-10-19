@@ -1,13 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo que retorna o n-esimo numero harmonico.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class NumeroHarmonico {
     

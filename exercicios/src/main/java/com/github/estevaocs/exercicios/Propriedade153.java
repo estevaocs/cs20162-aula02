@@ -1,13 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.github.estevaocs.exercicios;
 
 /**
- *
- * @author Estevao
+ *Classe contendo o Metodo Propriedade153() que verifica a existencia ou nao 
+ *dessa propriedade em um determinado numero.
+ * 
+ * @author Estevão Cristino da Silva
+ * @version 1.0
  */
 public final class Propriedade153 {
 
@@ -19,6 +17,7 @@ public final class Propriedade153 {
      *         - false : nao possui a propriedade
      * @throws IllegalArgumentException - o numero n nao pode ser menor que 0e
      * maior que 9999
+     * @see metodo potencia(x, y) da Classe Potencia, desse mesmo pacote.
      */
     public static boolean propriedade153(int n) throws IllegalArgumentException {
         int i;
@@ -39,7 +38,8 @@ public final class Propriedade153 {
         j = (n - 100 * i) / 10;
         k = n % 10;
 
-        return (Math.pow(i, 3) + Math.pow(j, 3) + Math.pow(k, 3)) == n;
+        return (Potencia.potencia(i, 3) + Potencia.potencia(j, 3) 
+                + Potencia.potencia(k, 3)) == n;
 
     }
 
